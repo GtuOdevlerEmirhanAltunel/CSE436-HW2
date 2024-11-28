@@ -1,0 +1,150 @@
+timestamp 1732306622
+version 8.2
+tech scmos
+style TSMC0.25um(tsmc25)from:t11y
+scale 1000 1 12
+resistclasses 4600 3500 1067000 1067000 1 4000 4000 80 80 80 80 40
+use full2/nand nand.mag_0 1 0 2 0 1 0
+use full2/nand nand.mag_1 1 0 26 0 1 0
+use full2/nand nand.mag_2 1 0 56 0 1 0
+use full2/nand nand.mag_3 1 0 80 0 1 0
+use full2/nand nand.mag_4 1 0 104 0 1 0
+use full2/nand nand.mag_5 1 0 128 0 1 0
+use full2/nand nand.mag_6 1 0 152 0 1 0
+use full2/nand nand.mag_7 1 0 181 0 1 0
+use full2/nand nand.mag_8 1 0 210 0 1 0
+node "m1_230_23#" 0 30.976 230 23 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0 0 0 0 0
+node "m1_172_31#" 0 30.976 172 31 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0 0 0 0 0
+node "m1_76_33#" 0 30.976 76 33 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0 0 0 0 0
+node "m1_201_41#" 0 30.976 201 41 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0 0 0 0 0
+node "a_190_20#" 4 180.496 190 20 pc 0 0 0 0 0 0 0 0 0 0 16 16 0 0 88 52 0 0 0 0 0 0 0 0
+node "a_89_21#" 5 308.5 89 21 pc 0 0 0 0 0 0 0 0 0 0 16 16 0 0 154 92 102 58 0 0 0 0 0 0
+node "a_26_18#" 4 109.488 26 18 pc 0 0 0 0 0 0 0 0 0 0 16 16 0 0 32 24 0 0 0 0 0 0 0 0
+node "a_128_16#" 43 537.3 128 16 pc 0 0 0 0 0 0 0 0 0 0 48 48 0 0 139 94 407 210 0 0 0 0 0 0
+node "a_10_25#" 25 371.816 10 25 pc 0 0 0 0 0 0 0 0 0 0 32 32 0 0 122 76 202 108 0 0 0 0 0 0
+node "a_115_31#" 25 340.33 115 31 pc 0 0 0 0 0 0 0 0 0 0 32 32 0 0 82 56 246 130 0 0 0 0 0 0
+node "a_65_34#" 29 777.36 65 34 pc 0 0 0 0 0 0 0 0 0 0 32 32 0 0 135 90 1035 524 0 0 0 0 0 0
+node "a_184_41#" 6 260.648 184 41 pc 0 0 0 0 0 0 0 0 0 0 16 16 0 0 66 48 234 124 0 0 0 0 0 0
+node "a_104_39#" 25 313.896 104 39 pc 0 0 0 0 0 0 0 0 0 0 32 32 0 0 94 62 154 84 0 0 0 0 0 0
+node "a_80_40#" 4 99.344 80 40 pc 0 0 0 0 0 0 0 0 0 0 16 16 0 0 24 20 0 0 0 0 0 0 0 0
+node "a_2_37#" 25 297.616 2 37 pc 0 0 0 0 0 0 0 0 0 0 32 32 0 0 90 60 126 70 0 0 0 0 0 0
+cap "a_10_25#" "a_2_37#" 67.2343
+cap "m1_76_33#" "a_65_34#" 17.6734
+cap "a_89_21#" "a_10_25#" 92.7855
+cap "m1_201_41#" "a_65_34#" 54.984
+cap "m1_76_33#" "a_80_40#" 27.492
+cap "m1_172_31#" "a_190_20#" 23.5646
+cap "a_128_16#" "a_115_31#" 214.926
+cap "m1_230_23#" "a_128_16#" 23.5646
+cap "a_10_25#" "a_65_34#" 143.368
+cap "m1_172_31#" "a_128_16#" 6.873
+cap "a_115_31#" "a_104_39#" 26.8937
+cap "a_65_34#" "a_184_41#" 397.691
+cap "a_190_20#" "a_128_16#" 91.115
+subcap "a_104_39#" -345.208
+cap "nand.mag_0/a_2_14#" "nand.mag_0/a_4_81#" 163.835
+cap "nand.mag_0/w_n2_75#" "nand.mag_2/a_4_81#" -9.9476e-14
+cap "nand.mag_0/a_11_81#" "nand.mag_0/w_n2_75#" -91.296
+cap "nand.mag_0/a_11_19#" "nand.mag_0/a_4_81#" 225.557
+cap "nand.mag_0/w_n2_75#" "nand.mag_1/a_4_81#" -9.9476e-14
+cap "nand.mag_0/a_2_14#" "nand.mag_1/a_4_81#" 53.0203
+cap "nand.mag_0/a_11_19#" "nand.mag_1/a_4_81#" 123.754
+cap "nand.mag_0/a_4_81#" "nand.mag_2/a_4_81#" 132.059
+cap "nand.mag_0/a_4_81#" "nand.mag_1/a_4_81#" 601.21
+cap "nand.mag_4/a_2_14#" "nand.mag_0/a_4_81#" 33.968
+cap "nand.mag_2/a_4_81#" "nand.mag_1/a_4_81#" 177.209
+cap "nand.mag_4/a_2_14#" "nand.mag_2/a_4_81#" 422.69
+cap "nand.mag_0/a_4_8#" "nand.mag_0/a_4_81#" 41.238
+cap "nand.mag_4/a_2_14#" "nand.mag_1/a_4_81#" 37.0342
+cap "nand.mag_0/a_4_8#" "nand.mag_2/a_4_81#" 41.238
+cap "nand.mag_0/a_4_8#" "nand.mag_1/a_4_81#" 60.4824
+cap "nand.mag_0/a_2_14#" "nand.mag_0/a_11_19#" 51.7683
+cap "nand.mag_0/w_n2_75#" "nand.mag_0/a_4_81#" 1.42109e-14
+cap "nand.mag_3/w_n2_75#" "nand.mag_5/a_4_81#" -9.9476e-14
+cap "nand.mag_4/a_4_81#" "nand.mag_6/a_4_81#" 69.117
+cap "nand.mag_3/a_4_81#" "nand.mag_4/a_4_81#" 551.622
+cap "nand.mag_3/w_n2_75#" "nand.mag_6/a_4_81#" -9.9476e-14
+cap "nand.mag_5/a_4_81#" "nand.mag_6/a_4_81#" 596.922
+cap "nand.mag_3/w_n2_75#" "nand.mag_3/a_4_81#" -1.42109e-14
+cap "nand.mag_3/w_n2_75#" "nand.mag_3/a_11_81#" -136.944
+cap "nand.mag_3/a_4_81#" "nand.mag_5/a_4_81#" 125.497
+cap "nand.mag_4/a_11_19#" "nand.mag_4/a_4_81#" 203.392
+cap "nand.mag_3/a_11_19#" "nand.mag_3/a_4_81#" 37.0342
+cap "nand.mag_4/a_11_19#" "nand.mag_5/a_4_81#" 206.262
+cap "nand.mag_5/a_4_81#" "nand.mag_7/a_4_81#" 41.238
+cap "a_65_34#" "nand.mag_4/a_4_81#" 94.354
+cap "nand.mag_4/a_11_19#" "nand.mag_6/a_4_81#" 54.984
+cap "nand.mag_4/a_4_81#" "nand.mag_3/a_4_8#" 82.476
+cap "nand.mag_6/a_4_81#" "nand.mag_7/a_4_81#" 11.7823
+cap "a_65_34#" "nand.mag_5/a_4_81#" 75.664
+cap "nand.mag_3/a_4_81#" "nand.mag_4/a_11_19#" 66.324
+cap "nand.mag_5/a_4_81#" "nand.mag_3/a_4_8#" 41.238
+cap "a_65_34#" "nand.mag_6/a_4_81#" 75.664
+cap "nand.mag_3/a_4_81#" "a_65_34#" 49.424
+cap "nand.mag_3/a_4_81#" "nand.mag_3/a_4_8#" 41.238
+cap "nand.mag_4/a_11_19#" "a_65_34#" 15.456
+cap "a_65_34#" "nand.mag_7/a_4_81#" 33.968
+cap "nand.mag_3/w_n2_75#" "nand.mag_4/a_4_81#" 1.42109e-14
+cap "nand.mag_4/a_4_81#" "nand.mag_5/a_4_81#" 469.678
+cap "nand.mag_8/a_2_14#" "nand.mag_8/a_11_19#" 9.88629
+cap "nand.mag_7/a_11_81#" "nand.mag_7/w_n2_75#" -15.216
+cap "nand.mag_7/a_4_81#" "nand.mag_7/a_11_19#" 11.7823
+cap "nand.mag_7/a_4_81#" "nand.mag_8/a_2_14#" 47.714
+cap "nand.mag_7/a_4_81#" "nand.mag_8/a_11_19#" 33.968
+cap "nand.mag_8/a_4_81#" "nand.mag_8/a_2_14#" 41.238
+cap "nand.mag_7/a_11_19#" "nand.mag_8/a_2_14#" -4.536
+cap "nand.mag_8/a_4_81#" "nand.mag_8/a_11_19#" 33.3831
+merge "nand.mag_8/a_4_81#" "m1_230_23#" -30.976 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0 0 0 0 0
+merge "nand.mag_8/a_11_19#" "nand.mag_6/a_11_19#" -252.304 0 0 0 0 0 0 0 0 0 0 -24 -36 0 0 -16 -16 0 0 0 0 0 0 0 0
+merge "nand.mag_6/a_11_19#" "nand.mag_5/a_2_14#"
+merge "nand.mag_5/a_2_14#" "nand.mag_4/a_4_81#"
+merge "nand.mag_4/a_4_81#" "a_128_16#"
+merge "nand.mag_8/a_4_8#" "nand.mag_7/a_4_8#" -304.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -152 -160 0 0 0 0 0 0 0 0
+merge "nand.mag_7/a_4_8#" "nand.mag_6/a_4_8#"
+merge "nand.mag_6/a_4_8#" "nand.mag_5/a_4_8#"
+merge "nand.mag_5/a_4_8#" "nand.mag_3/a_4_8#"
+merge "nand.mag_3/a_4_8#" "nand.mag_2/a_4_8#"
+merge "nand.mag_2/a_4_8#" "nand.mag_1/a_4_8#"
+merge "nand.mag_1/a_4_8#" "nand.mag_0/a_4_8#"
+merge "nand.mag_0/a_4_8#" "nand.mag_4/a_4_8#"
+merge "nand.mag_8/a_11_81#" "nand.mag_7/a_11_81#" -61.504 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -152 -160 0 0 0 0 0 0 0 0
+merge "nand.mag_7/a_11_81#" "nand.mag_6/a_11_81#"
+merge "nand.mag_6/a_11_81#" "nand.mag_5/a_11_81#"
+merge "nand.mag_5/a_11_81#" "nand.mag_3/a_11_81#"
+merge "nand.mag_3/a_11_81#" "nand.mag_2/a_11_81#"
+merge "nand.mag_2/a_11_81#" "nand.mag_1/a_11_81#"
+merge "nand.mag_1/a_11_81#" "nand.mag_0/a_11_81#"
+merge "nand.mag_0/a_11_81#" "nand.mag_4/a_11_81#"
+merge "nand.mag_3/a_2_14#" "nand.mag_2/a_4_81#" -102.156 0 0 0 0 0 0 0 0 0 0 -8 -12 0 0 -24 -28 0 0 0 0 0 0 0 0
+merge "nand.mag_2/a_4_81#" "a_80_40#"
+merge "a_80_40#" "m1_76_33#"
+merge "nand.mag_8/w_n2_75#" "nand.mag_7/w_n2_75#" -861.65 0 0 0 0 -950 -496 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nand.mag_7/w_n2_75#" "nand.mag_6/w_n2_75#"
+merge "nand.mag_6/w_n2_75#" "nand.mag_5/w_n2_75#"
+merge "nand.mag_5/w_n2_75#" "nand.mag_3/w_n2_75#"
+merge "nand.mag_3/w_n2_75#" "nand.mag_2/w_n2_75#"
+merge "nand.mag_2/w_n2_75#" "nand.mag_1/w_n2_75#"
+merge "nand.mag_1/w_n2_75#" "nand.mag_0/w_n2_75#"
+merge "nand.mag_0/w_n2_75#" "nand.mag_4/w_n2_75#"
+merge "nand.mag_1/a_11_19#" "nand.mag_0/a_2_14#" -128.28 0 0 0 0 0 0 0 0 0 0 -16 -24 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nand.mag_0/a_2_14#" "a_2_37#"
+merge "nand.mag_3/a_11_19#" "nand.mag_1/a_4_81#" -84.084 0 0 0 0 0 0 0 0 0 0 20 -12 0 0 -16 -16 0 0 0 0 0 0 0 0
+merge "nand.mag_1/a_4_81#" "a_89_21#"
+merge "nand.mag_7/a_11_19#" "nand.mag_6/a_4_81#" -97.392 0 0 0 0 0 0 0 0 0 0 10 -12 0 0 -32 -32 0 0 0 0 0 0 0 0
+merge "nand.mag_6/a_4_81#" "m1_172_31#"
+merge "m1_172_31#" "a_190_20#"
+merge "nand.mag_8/a_2_14#" "nand.mag_2/a_11_19#" -454.364 0 0 0 0 0 0 0 0 0 0 -23 -40 0 0 4 -34 -204 -218 0 0 0 0 0 0
+merge "nand.mag_2/a_11_19#" "nand.mag_1/a_2_14#"
+merge "nand.mag_1/a_2_14#" "nand.mag_0/a_4_81#"
+merge "nand.mag_0/a_4_81#" "a_65_34#"
+merge "a_65_34#" "a_26_18#"
+merge "nand.mag_7/a_2_14#" "nand.mag_5/a_4_81#" -142.996 0 0 0 0 0 0 0 0 0 0 -7 -16 0 0 -20 -18 0 0 0 0 0 0 0 0
+merge "nand.mag_5/a_4_81#" "a_184_41#"
+merge "nand.mag_2/a_2_14#" "nand.mag_0/a_11_19#" -131.198 0 0 0 0 0 0 0 0 0 0 -12 -22 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nand.mag_0/a_11_19#" "a_10_25#"
+merge "nand.mag_6/a_2_14#" "nand.mag_4/a_11_19#" -157.702 0 0 0 0 0 0 0 0 0 0 -12 -22 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nand.mag_4/a_11_19#" "a_115_31#"
+merge "nand.mag_7/a_4_81#" "m1_201_41#" -28.576 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 -16 0 0 0 0 0 0 0 0
+merge "nand.mag_5/a_11_19#" "nand.mag_3/a_4_81#" -125.552 0 0 0 0 0 0 0 0 0 0 8 -24 0 0 -8 -14 0 0 0 0 0 0 0 0
+merge "nand.mag_3/a_4_81#" "nand.mag_4/a_2_14#"
+merge "nand.mag_4/a_2_14#" "a_104_39#"

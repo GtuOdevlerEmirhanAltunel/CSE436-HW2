@@ -1,0 +1,43 @@
+magic
+tech scmos
+timestamp 1732306741
+<< nwell >>
+rect 0 93 480 97
+<< psubstratepcontact >>
+rect 3 0 477 4
+<< nsubstratencontact >>
+rect 3 93 477 97
+<< metal1 >>
+rect 0 93 3 97
+rect 477 93 480 97
+rect 201 48 205 52
+rect 441 48 445 52
+rect 470 48 474 52
+rect 0 37 4 41
+rect 231 37 241 41
+rect 115 31 119 35
+rect 355 31 359 35
+rect 0 25 4 29
+rect 240 25 244 29
+rect 0 0 3 4
+rect 477 0 480 4
+use full2/full  full.mag_0 full2
+timestamp 1732306622
+transform 1 0 0 0 1 0
+box 0 0 240 100
+use full2/full  full.mag_1
+timestamp 1732306622
+transform 1 0 240 0 1 0
+box 0 0 240 100
+<< labels >>
+rlabel metal1 1 39 1 39 3 a1
+rlabel metal1 1 27 1 27 3 b1
+rlabel metal1 2 2 2 2 2 gnd!
+rlabel metal1 2 95 2 95 4 vdd!
+rlabel metal1 117 33 117 33 1 cin
+rlabel metal1 242 27 242 27 1 a2
+rlabel metal1 357 33 357 33 1 b2
+rlabel metal1 203 50 203 50 1 s1
+rlabel metal1 443 50 443 50 1 s2
+rlabel metal1 472 50 472 50 1 cout
+<< end >>

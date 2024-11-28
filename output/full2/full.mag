@@ -1,0 +1,113 @@
+magic
+tech scmos
+timestamp 1732306622
+<< polycontact >>
+rect 2 37 6 41
+rect 80 40 84 44
+rect 35 36 39 40
+rect 104 39 108 43
+rect 184 41 188 45
+rect 213 41 217 45
+rect 65 34 69 38
+rect 137 35 141 39
+rect 155 36 159 40
+rect 115 31 119 35
+rect 10 25 14 29
+rect 58 25 62 29
+rect 162 28 166 32
+rect 220 28 224 32
+rect 26 18 30 22
+rect 89 21 93 25
+rect 190 20 194 24
+rect 128 16 132 20
+<< metal1 >>
+rect 0 37 2 41
+rect 78 40 80 44
+rect 101 39 104 43
+rect 201 41 205 45
+rect 58 34 65 38
+rect 76 33 80 37
+rect 0 25 10 29
+rect 172 31 176 35
+rect 85 23 89 25
+rect 22 18 26 22
+rect 46 17 66 21
+rect 124 16 128 20
+rect 172 20 190 24
+rect 230 23 234 27
+<< m2contact >>
+rect 21 60 26 65
+rect 147 60 152 65
+rect 6 37 11 42
+rect 30 36 35 41
+rect 108 39 113 44
+rect 137 39 142 44
+rect 155 40 160 45
+rect 179 40 184 45
+rect 208 40 213 45
+rect 53 34 58 39
+rect 14 25 19 30
+rect 53 25 58 30
+rect 115 26 120 31
+rect 66 17 71 22
+rect 84 18 89 23
+rect 161 23 166 28
+rect 132 16 137 21
+rect 218 23 223 28
+<< metal2 >>
+rect 138 69 212 73
+rect 138 64 142 69
+rect 26 60 142 64
+rect 152 60 183 64
+rect 11 37 30 41
+rect 53 39 57 60
+rect 179 45 183 60
+rect 208 45 212 69
+rect 113 39 137 43
+rect 152 40 155 44
+rect 137 37 141 39
+rect 19 25 53 29
+rect 58 25 62 29
+rect 152 30 156 40
+rect 120 26 156 30
+rect 166 23 218 27
+rect 71 18 84 22
+rect 161 20 165 23
+rect 137 16 165 20
+use full2/nand  nand.mag_0
+timestamp 1732303558
+transform 1 0 2 0 1 0
+box -2 0 30 100
+use full2/nand  nand.mag_1
+timestamp 1732303558
+transform 1 0 26 0 1 0
+box -2 0 30 100
+use full2/nand  nand.mag_2
+timestamp 1732303558
+transform 1 0 56 0 1 0
+box -2 0 30 100
+use full2/nand  nand.mag_3
+timestamp 1732303558
+transform 1 0 80 0 1 0
+box -2 0 30 100
+use full2/nand  nand.mag_4
+timestamp 1732303558
+transform 1 0 104 0 1 0
+box -2 0 30 100
+use full2/nand  nand.mag_5
+timestamp 1732303558
+transform 1 0 128 0 1 0
+box -2 0 30 100
+use full2/nand  nand.mag_6
+timestamp 1732303558
+transform 1 0 152 0 1 0
+box -2 0 30 100
+use full2/nand  nand.mag_7
+timestamp 1732303558
+transform 1 0 181 0 1 0
+box -2 0 30 100
+use full2/nand  nand.mag_8
+timestamp 1732303558
+transform 1 0 210 0 1 0
+box -2 0 30 100
+<< end >>

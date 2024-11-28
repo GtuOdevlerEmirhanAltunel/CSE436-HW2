@@ -1,0 +1,4 @@
+.control
+run
+wrdata output_file.dat v(a1) v(a2) v(b1) v(b2) v(cin) v(s1) v(s2) v(cout)
+.endc

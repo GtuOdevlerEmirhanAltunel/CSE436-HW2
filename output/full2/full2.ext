@@ -1,0 +1,89 @@
+timestamp 1732306741
+version 8.2
+tech scmos
+style TSMC0.25um(tsmc25)from:t11y
+scale 1000 1 12
+resistclasses 4600 3500 1067000 1067000 1 4000 4000 80 80 80 80 40
+use full2/full full.mag_0 1 0 0 0 1 0
+use full2/full full.mag_1 1 0 240 0 1 0
+node "a2" 0 30.976 240 25 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0 0 0 0 0
+node "b1" 0 30.976 0 25 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0 0 0 0 0
+node "b2" 0 30.976 355 31 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0 0 0 0 0
+node "cin" 0 30.976 115 31 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0 0 0 0 0
+node "m1_231_37#" 0 61.408 231 37 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 40 28 0 0 0 0 0 0 0 0
+node "a1" 0 30.976 0 37 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0 0 0 0 0
+node "cout" 0 30.976 470 48 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0 0 0 0 0
+node "s2" 0 30.976 441 48 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0 0 0 0 0
+node "s1" 0 30.976 201 48 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0 0 0 0 0
+node "gnd!" 424 1307.65 3 0 poc 0 0 1896 956 0 0 0 0 0 0 0 0 0 0 1920 968 0 0 0 0 0 0 0 0
+node "vdd!" 128595 3034.69 0 93 nw 1896 956 0 0 1920 968 0 0 0 0 0 0 0 0 1920 968 0 0 0 0 0 0 0 0
+subcap "gnd!" -963.776
+subcap "vdd!" -761.844
+cap "full.mag_0/nand.mag_1/a_4_81#" "vdd!" -41.238
+cap "gnd!" "full.mag_0/nand.mag_1/a_4_81#" -20.619
+cap "full.mag_0/nand.mag_2/a_4_81#" "vdd!" -41.238
+cap "gnd!" "full.mag_0/nand.mag_2/a_4_81#" -20.619
+cap "full.mag_0/nand.mag_0/a_4_81#" "vdd!" -41.238
+cap "gnd!" "full.mag_0/nand.mag_0/a_4_81#" -20.619
+cap "full.mag_0/nand.mag_3/a_4_81#" "vdd!" -20.619
+cap "full.mag_0/nand.mag_4/a_4_8#" "full.mag_0/nand.mag_3/a_4_81#" -20.619
+cap "full.mag_0/nand.mag_3/w_n2_75#" "s1" -20.619
+cap "full.mag_0/nand.mag_4/a_4_8#" "full.mag_0/nand.mag_4/a_4_81#" -20.619
+cap "full.mag_0/nand.mag_3/w_n2_75#" "full.mag_0/nand.mag_6/a_4_81#" -41.238
+cap "full.mag_0/nand.mag_4/a_4_8#" "full.mag_0/nand.mag_6/a_4_81#" -20.619
+cap "full.mag_0/nand.mag_5/a_4_81#" "full.mag_0/nand.mag_3/w_n2_75#" -41.238
+cap "full.mag_0/nand.mag_3/a_4_81#" "full.mag_0/nand.mag_3/w_n2_75#" -20.619
+cap "full.mag_0/nand.mag_3/w_n2_75#" "full.mag_0/nand.mag_4/a_4_81#" -41.238
+cap "full.mag_0/nand.mag_5/a_4_81#" "full.mag_0/nand.mag_4/a_4_8#" -20.619
+cap "full.mag_0/m1_230_23#" "full.mag_0/nand.mag_8/a_4_8#" -20.619
+cap "full.mag_0/nand.mag_7/w_n2_75#" "full.mag_1/nand.mag_1/a_4_81#" -41.238
+cap "full.mag_0/nand.mag_7/w_n2_75#" "s1" -20.619
+cap "full.mag_0/nand.mag_7/w_n2_75#" "full.mag_1/nand.mag_0/a_4_81#" -41.238
+cap "full.mag_0/nand.mag_8/a_4_8#" "full.mag_1/nand.mag_1/a_4_81#" -20.619
+cap "full.mag_0/nand.mag_8/a_4_8#" "s1" -20.619
+cap "full.mag_0/nand.mag_8/a_4_8#" "full.mag_1/nand.mag_0/a_4_81#" -20.619
+cap "full.mag_0/nand.mag_7/w_n2_75#" "full.mag_0/m1_230_23#" -41.238
+cap "full.mag_0/m1_230_23#" "a2" 27.492
+cap "full.mag_1/nand.mag_2/a_4_8#" "full.mag_1/nand.mag_4/a_4_81#" -20.619
+cap "full.mag_1/nand.mag_3/a_4_81#" "full.mag_1/nand.mag_1/w_n2_75#" -41.238
+cap "full.mag_1/nand.mag_6/a_4_81#" "full.mag_1/nand.mag_1/w_n2_75#" -20.619
+cap "full.mag_1/nand.mag_2/a_4_81#" "full.mag_1/nand.mag_1/w_n2_75#" -41.238
+cap "full.mag_1/nand.mag_5/a_4_81#" "full.mag_1/nand.mag_1/w_n2_75#" -41.238
+cap "full.mag_1/nand.mag_2/a_4_8#" "full.mag_1/nand.mag_3/a_4_81#" -20.619
+cap "full.mag_1/nand.mag_2/a_4_8#" "full.mag_1/nand.mag_2/a_4_81#" -20.619
+cap "full.mag_1/nand.mag_2/a_4_8#" "full.mag_1/nand.mag_5/a_4_81#" -20.619
+cap "full.mag_1/nand.mag_4/a_4_81#" "full.mag_1/nand.mag_1/w_n2_75#" -41.238
+cap "full.mag_1/nand.mag_6/a_4_8#" "full.mag_1/nand.mag_6/a_4_81#" -20.619
+cap "full.mag_1/nand.mag_6/a_4_8#" "s2" -20.619
+cap "full.mag_1/nand.mag_5/w_n2_75#" "cout" -41.238
+cap "full.mag_1/nand.mag_5/w_n2_75#" "full.mag_1/nand.mag_6/a_4_81#" -20.619
+cap "full.mag_1/nand.mag_5/w_n2_75#" "s2" -41.238
+cap "full.mag_1/nand.mag_6/a_4_8#" "cout" -20.619
+merge "full.mag_1/nand.mag_6/a_4_8#" "full.mag_1/nand.mag_2/a_4_8#" -2455.94 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1920 -976 0 0 0 0 0 0 0 0
+merge "full.mag_1/nand.mag_2/a_4_8#" "full.mag_1/nand.mag_0/a_4_8#"
+merge "full.mag_1/nand.mag_0/a_4_8#" "full.mag_0/nand.mag_8/a_4_8#"
+merge "full.mag_0/nand.mag_8/a_4_8#" "full.mag_0/nand.mag_4/a_4_8#"
+merge "full.mag_0/nand.mag_4/a_4_8#" "full.mag_0/nand.mag_0/a_4_8#"
+merge "full.mag_0/nand.mag_0/a_4_8#" "gnd!"
+merge "full.mag_1/nand.mag_5/a_11_81#" "full.mag_1/nand.mag_5/w_n2_75#" -3093.47 0 0 0 0 -1920 -1018 0 0 0 0 0 0 0 0 -1920 -976 0 0 0 0 0 0 0 0
+merge "full.mag_1/nand.mag_5/w_n2_75#" "full.mag_1/nand.mag_1/a_11_81#"
+merge "full.mag_1/nand.mag_1/a_11_81#" "full.mag_1/nand.mag_1/w_n2_75#"
+merge "full.mag_1/nand.mag_1/w_n2_75#" "full.mag_1/nand.mag_0/a_11_81#"
+merge "full.mag_1/nand.mag_0/a_11_81#" "full.mag_1/nand.mag_0/w_n2_75#"
+merge "full.mag_1/nand.mag_0/w_n2_75#" "full.mag_0/nand.mag_7/a_11_81#"
+merge "full.mag_0/nand.mag_7/a_11_81#" "full.mag_0/nand.mag_7/w_n2_75#"
+merge "full.mag_0/nand.mag_7/w_n2_75#" "full.mag_0/nand.mag_3/a_11_81#"
+merge "full.mag_0/nand.mag_3/a_11_81#" "full.mag_0/nand.mag_3/w_n2_75#"
+merge "full.mag_0/nand.mag_3/w_n2_75#" "full.mag_0/nand.mag_0/a_11_81#"
+merge "full.mag_0/nand.mag_0/a_11_81#" "full.mag_0/nand.mag_0/w_n2_75#"
+merge "full.mag_0/nand.mag_0/w_n2_75#" "vdd!"
+merge "full.mag_1/a_2_37#" "full.mag_0/m1_230_23#" -41.664 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -24 0 0 0 0 0 0 0 0
+merge "full.mag_0/m1_230_23#" "m1_231_37#"
+merge "full.mag_0/a_115_31#" "cin" -30.976 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0 0 0 0 0
+merge "full.mag_1/a_115_31#" "b2" -30.976 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0 0 0 0 0
+merge "full.mag_0/nand.mag_7/a_4_81#" "s1" -28.576 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 -16 0 0 0 0 0 0 0 0
+merge "full.mag_0/a_10_25#" "b1" -30.976 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0 0 0 0 0
+merge "full.mag_1/a_10_25#" "a2" -30.976 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0 0 0 0 0
+merge "full.mag_0/a_2_37#" "a1" -30.976 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0 0 0 0 0
+merge "full.mag_1/nand.mag_7/a_4_81#" "s2" -30.976 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0 0 0 0 0
+merge "full.mag_1/nand.mag_8/a_4_81#" "cout" -30.976 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0 0 0 0 0

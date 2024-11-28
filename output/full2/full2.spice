@@ -1,0 +1,155 @@
+* SPICE3 file created from full2/full2.ext - technology: scmos
+
+.option scale=0.12u
+
+M1000 full.mag_0/nand.mag_0/a_11_8# a1 gnd Gnd nfet w=4 l=2
++  ad=24 pd=20 as=360 ps=324
+M1001 full.mag_0/a_26_18# b1 vdd vdd pfet w=8 l=2
++  ad=80 pd=52 as=864 ps=504
+M1002 full.mag_0/a_26_18# b1 full.mag_0/nand.mag_0/a_11_8# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1003 vdd a1 full.mag_0/a_26_18# vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1004 full.mag_0/nand.mag_2/a_11_8# b1 gnd Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1005 full.mag_0/a_80_40# full.mag_0/a_26_18# vdd vdd pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1006 full.mag_0/a_80_40# full.mag_0/a_26_18# full.mag_0/nand.mag_2/a_11_8# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1007 vdd b1 full.mag_0/a_80_40# vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1008 full.mag_0/nand.mag_1/a_11_8# full.mag_0/a_26_18# gnd Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1009 full.mag_0/a_89_21# a1 vdd vdd pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1010 full.mag_0/a_89_21# a1 full.mag_0/nand.mag_1/a_11_8# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1011 vdd full.mag_0/a_26_18# full.mag_0/a_89_21# vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1012 full.mag_0/nand.mag_3/a_11_8# full.mag_0/a_80_40# gnd Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1013 full.mag_0/a_104_39# full.mag_0/a_89_21# vdd vdd pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1014 full.mag_0/a_104_39# full.mag_0/a_89_21# full.mag_0/nand.mag_3/a_11_8# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1015 vdd full.mag_0/a_80_40# full.mag_0/a_104_39# vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1016 full.mag_0/nand.mag_4/a_11_8# full.mag_0/a_104_39# gnd Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1017 full.mag_0/a_128_16# cin vdd vdd pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1018 full.mag_0/a_128_16# cin full.mag_0/nand.mag_4/a_11_8# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1019 vdd full.mag_0/a_104_39# full.mag_0/a_128_16# vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1020 full.mag_0/nand.mag_5/a_11_8# full.mag_0/a_128_16# gnd Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1021 full.mag_0/a_184_41# full.mag_0/a_104_39# vdd vdd pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1022 full.mag_0/a_184_41# full.mag_0/a_104_39# full.mag_0/nand.mag_5/a_11_8# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1023 vdd full.mag_0/a_128_16# full.mag_0/a_184_41# vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1024 full.mag_0/nand.mag_6/a_11_8# cin gnd Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1025 full.mag_0/a_190_20# full.mag_0/a_128_16# vdd vdd pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1026 full.mag_0/a_190_20# full.mag_0/a_128_16# full.mag_0/nand.mag_6/a_11_8# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1027 vdd cin full.mag_0/a_190_20# vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1028 full.mag_0/nand.mag_7/a_11_8# full.mag_0/a_184_41# gnd Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1029 s1 full.mag_0/a_190_20# vdd vdd pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1030 s1 full.mag_0/a_190_20# full.mag_0/nand.mag_7/a_11_8# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1031 vdd full.mag_0/a_184_41# s1 vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1032 full.mag_0/nand.mag_8/a_11_8# full.mag_0/a_26_18# gnd Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1033 m1_231_37# full.mag_0/a_128_16# vdd vdd pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1034 m1_231_37# full.mag_0/a_128_16# full.mag_0/nand.mag_8/a_11_8# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1035 vdd full.mag_0/a_26_18# m1_231_37# vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1036 full.mag_1/nand.mag_0/a_11_8# m1_231_37# gnd Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1037 full.mag_1/a_26_18# a2 vdd vdd pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1038 full.mag_1/a_26_18# a2 full.mag_1/nand.mag_0/a_11_8# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1039 vdd m1_231_37# full.mag_1/a_26_18# vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1040 full.mag_1/nand.mag_2/a_11_8# a2 gnd Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1041 full.mag_1/a_80_40# full.mag_1/a_26_18# vdd vdd pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1042 full.mag_1/a_80_40# full.mag_1/a_26_18# full.mag_1/nand.mag_2/a_11_8# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1043 vdd a2 full.mag_1/a_80_40# vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1044 full.mag_1/nand.mag_1/a_11_8# full.mag_1/a_26_18# gnd Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1045 full.mag_1/a_89_21# m1_231_37# vdd vdd pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1046 full.mag_1/a_89_21# m1_231_37# full.mag_1/nand.mag_1/a_11_8# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1047 vdd full.mag_1/a_26_18# full.mag_1/a_89_21# vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1048 full.mag_1/nand.mag_3/a_11_8# full.mag_1/a_80_40# gnd Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1049 full.mag_1/a_104_39# full.mag_1/a_89_21# vdd vdd pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1050 full.mag_1/a_104_39# full.mag_1/a_89_21# full.mag_1/nand.mag_3/a_11_8# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1051 vdd full.mag_1/a_80_40# full.mag_1/a_104_39# vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1052 full.mag_1/nand.mag_4/a_11_8# full.mag_1/a_104_39# gnd Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1053 full.mag_1/a_128_16# b2 vdd vdd pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1054 full.mag_1/a_128_16# b2 full.mag_1/nand.mag_4/a_11_8# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1055 vdd full.mag_1/a_104_39# full.mag_1/a_128_16# vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1056 full.mag_1/nand.mag_5/a_11_8# full.mag_1/a_128_16# gnd Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1057 full.mag_1/a_184_41# full.mag_1/a_104_39# vdd vdd pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1058 full.mag_1/a_184_41# full.mag_1/a_104_39# full.mag_1/nand.mag_5/a_11_8# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1059 vdd full.mag_1/a_128_16# full.mag_1/a_184_41# vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1060 full.mag_1/nand.mag_6/a_11_8# b2 gnd Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1061 full.mag_1/a_190_20# full.mag_1/a_128_16# vdd vdd pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1062 full.mag_1/a_190_20# full.mag_1/a_128_16# full.mag_1/nand.mag_6/a_11_8# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1063 vdd b2 full.mag_1/a_190_20# vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1064 full.mag_1/nand.mag_7/a_11_8# full.mag_1/a_184_41# gnd Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1065 s2 full.mag_1/a_190_20# vdd vdd pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1066 s2 full.mag_1/a_190_20# full.mag_1/nand.mag_7/a_11_8# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1067 vdd full.mag_1/a_184_41# s2 vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1068 full.mag_1/nand.mag_8/a_11_8# full.mag_1/a_26_18# gnd Gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1069 cout full.mag_1/a_128_16# vdd vdd pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1070 cout full.mag_1/a_128_16# full.mag_1/nand.mag_8/a_11_8# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1071 vdd full.mag_1/a_26_18# cout vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+C0 gnd Gnd 3.92fF
+C1 vdd Gnd 15.53fF
+C2 full.mag_1/a_128_16# Gnd 3.09fF
+C3 full.mag_1/a_26_18# Gnd 3.46fF
+C4 m1_231_37# Gnd 2.27fF
+C5 full.mag_0/a_128_16# Gnd 3.09fF
+C6 full.mag_0/a_26_18# Gnd 3.46fF
